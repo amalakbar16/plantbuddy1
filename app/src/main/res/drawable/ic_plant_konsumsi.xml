@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Stem -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M12,22L12,12"
+        android:strokeWidth="1.5"
+        android:strokeColor="#4CAF50"
+        android:strokeLineCap="round"/>
+
+    <!-- Vegetable (Tomato) -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M12,9m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+
+    <!-- Leaves -->
+    <path
+        android:fillColor="#5CBA9D"
+        android:pathData="M8,14C6,13 5,11 7,10C9,11 9,13 8,14Z" />
+
+    <path
+        android:fillColor="#5CBA9D"
+        android:pathData="M16,14C18,13 19,11 17,10C15,11 15,13 16,14Z" />
+</vector>
+

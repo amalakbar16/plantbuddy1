@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PlantBuddy</string>
+
+    <!-- Plant Types -->
+    <string-array name="plant_types">
+        <item>Tanaman Hias</item>
+        <item>Tanaman Konsumsi</item>
+        <item>Tanaman Peneduh</item>
+        <item>Tanaman Obat</item>
+    </string-array>
+
+    <!-- Watering Days -->
+    <string-array name="watering_days">
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+        <item>Minggu</item>
+        <item>Setiap Hari</item>
+    </string-array>
+</resources>
+

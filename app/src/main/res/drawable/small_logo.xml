@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background Circle with subtle gradient -->
+    <path
+        android:fillColor="#F1F9F6"
+        android:pathData="M100,100m-95,0a95,95 0,1 1,190 0a95,95 0,1 1,-190 0" />
+
+    <!-- Pot with modern color -->
+    <path
+        android:fillColor="#A67C52"
+        android:pathData="M65,140L135,140L145,185L55,185Z" />
+
+    <!-- Pot Rim with shadow -->
+    <path
+        android:fillColor="#8A6642"
+        android:pathData="M60,140L140,140L135,150L65,150Z" />
+
+    <!-- Soil with texture hint -->
+    <path
+        android:fillColor="#6D5046"
+        android:pathData="M70,140L130,140L125,130L75,130Z" />
+
+    <!-- Main Stem -->
+    <path
+        android:fillColor="#3E8B75"
+        android:strokeColor="#2E7D32"
+        android:strokeWidth="2"
+        android:pathData="M100,50L100,140" />
+
+    <!-- Left Leaf 1 - Primary green -->
+    <path
+        android:fillColor="#5CBA9D"
+        android:pathData="M100,70C100,70 60,50 50,75C40,100 70,105 100,70Z" />
+
+    <!-- Right Leaf 1 - Slightly different shade -->
+    <path
+        android:fillColor="#5CBA9D"
+        android:pathData="M100,70C100,70 140,50 150,75C160,100 130,105 100,70Z" />
+
+    <!-- Left Leaf 2 - Primary light -->
+    <path
+        android:fillColor="#8EDAC0"
+        android:pathData="M100,100C100,100 65,80 55,100C45,120 75,130 100,100Z" />
+
+    <!-- Right Leaf 2 - Primary light -->
+    <path
+        android:fillColor="#8EDAC0"
+        android:pathData="M100,100C100,100 135,80 145,100C155,120 125,130 100,100Z" />
+
+    <!-- Small Flower - Accent color -->
+    <path
+        android:fillColor="#FF9A76"
+        android:pathData="M100,50m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0" />
+
+    <!-- Flower Center - Accent dark -->
+    <path
+        android:fillColor="#E07E5F"
+        android:pathData="M100,50m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+
+    <!-- Water Droplet 1 - Left side (above top left leaf) -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M60,55C60,55 70,70 60,80C50,90 40,80 50,70C60,60 60,55 60,55Z" />
+
+    <!-- Water Droplet 2 - Right side (above top right leaf) -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M140,55C140,55 150,70 140,80C130,90 120,80 130,70C140,60 140,55 140,55Z" />
+
+    <!-- Water Droplet 3 - Middle (adjusted for better appearance) -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M100,85C100,85 110,100 100,110C90,120 80,110 90,100C100,90 100,85 100,85Z" />
+</vector>
+

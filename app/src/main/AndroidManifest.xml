@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.plantbuddy1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/plantbuddy_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/plantbuddy_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Plantbuddy1">
+
+        <!-- Login Activity (LAUNCHER) -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Register Activity -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- Schedule Activity -->
+        <activity
+            android:name=".ScheduleActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
+
