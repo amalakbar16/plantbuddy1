@@ -1,0 +1,51 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#E8F5E9"
+        android:pathData="M100,100m-95,0a95,95 0,1 1,190 0a95,95 0,1 1,-190 0" />
+
+    <!-- Pot -->
+    <path
+        android:fillColor="#8D6E63"
+        android:pathData="M70,140L130,140L140,180L60,180Z" />
+
+    <!-- Soil -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M70,140L130,140L125,150L75,150Z" />
+
+    <!-- Plant Stem -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,50L100,140Q100,140 100,140L100,140Q100,140 100,140Z"
+        android:strokeColor="#388E3C"
+        android:strokeWidth="4"/>
+
+    <!-- Leaves -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,80C100,80 70,60 60,80C50,100 80,110 100,80Z" />
+
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,80C100,80 130,60 140,80C150,100 120,110 100,80Z" />
+
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,110C100,110 70,90 60,110C50,130 80,140 100,110Z" />
+
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,110C100,110 130,90 140,110C150,130 120,140 100,110Z" />
+
+    <!-- Water Droplet -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M130,70C130,70 140,85 130,95C120,105 110,95 120,85C130,75 130,70 130,70Z" />
+</vector>
+
